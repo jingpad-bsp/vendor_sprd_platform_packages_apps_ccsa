@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/repeat_radiogroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RadioButton
+        android:id="@+id/one_day"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:text="@string/oneDay" />
+
+    <RadioButton
+        android:id="@+id/one_week"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:text="@string/oneWeek" />
+
+    <RadioButton
+        android:id="@+id/one_month"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:text="@string/oneMonth" />
+
+</RadioGroup>

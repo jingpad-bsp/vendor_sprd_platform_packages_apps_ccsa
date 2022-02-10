@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_view_item_height"
+        android:layout_marginLeft="@dimen/list_item_padding_left"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/monitor_control"
+                android:textColor="@color/black"
+                android:textSize="@dimen/app_name_size" />
+
+            <TextView
+                android:id="@+id/tv_perm_group_list_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/monitor_summary_yes"
+                android:textColor="@color/Function_off_color"
+                android:textSize="@dimen/app_content_size" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:background="@drawable/list_divider_holo_dark" />
+
+    <com.unisoc.ccsa.permission.FocusListView
+        android:id="@+id/perm_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/custom_listview_style" >
+    </com.unisoc.ccsa.permission.FocusListView>
+
+</LinearLayout>

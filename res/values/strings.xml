@@ -1,0 +1,231 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CTA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CTA</string>
+    <string name="nav_header_subtitle">cta@unisoc.com</string>
+
+    <string name="menu_permission_settings">Permission Settings</string>
+    <string name="menu_crypt_box">Crypt Box</string>
+    <string name="menu_remote_data_control">Remote Data Control</string>
+    <string name="menu_phone_number">Phone Number</string>
+    <string name="menu_about_ccsa">About CTA</string>
+
+    <string name="phone_numner">Phone Number:%1$s</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- rdc string -->
+    <string name="rdc_name">Remote Data Control</string>
+    <string name="rdc_title">Function switch</string>
+    <string name="rdc_summary">Control on-off</string>
+    <string name="phoneNumber_name">Phone number</string>
+    <string name="action_showInstru">Service agreement</string>
+    <string name="reset">Reset</string>
+    <string name="lock">Lock</string>
+    <string name="passwd">Control Password</string>
+    <string name="pw">Control password </string>
+    <string name="pwWrong">Wrong password</string>
+    <string name="isSet">Number:</string>
+    <string name="isNotSet">Not set</string>
+    <string name="isOn">On</string>
+    <string name="isOff">Off</string>
+    <string name="changeSaved">Has been modified</string>
+    <string name="app_error">***Program crash</string>
+    <string name="pwNotMatch">*Old password does\'t match, affirm again.</string>
+    <string name="newPwNotMatch">*confirm new password failed, affirm again.</string>
+    <string name="pwCantNull">*Password can not be empty.</string>
+    <string name="inputRelativesNum">*Please enter the relatives numbers</string>
+    <string name="setting">Settings</string>
+    <string name="summ_changePW">Control password setting</string>
+    <string name="dialog_title">Control password</string>
+    <string name="category_title">Guide</string>
+    <string name="op_guide">Guide</string>
+    <string name="service_agreement">Service Agreement</string>
+    <string name="remote_clean">Remote wipe data</string>
+    <string name="guide_title_remote_clean">Remote wipe data</string>
+    <string name="remote_lock">Remote lock screen</string>
+    <string name="guide_title_remote_lock">Remote lock screen guide</string>
+    <string name="reletives_number">Relatives numbers setting</string>
+    <string name="guide_title_reletives_number">Relatives number guide</string>
+    <string name="confirm_pw">Confirm</string>
+    <string name="old_pw">Old password</string>
+    <string name="new_pw">New password</string>
+    <string name="text_reletives">Relatives numbers</string>
+    <string name="title_reletives">Relatives number manage</string>
+    <string name="title_personal">Settings</string>
+    <string name="title_reletives_switch">Relatives numbers on-off</string>
+    <string name="summ_personal">Relatives numbers, Control password</string>
+    <string name="summ_reletives_switch">Remote data control is enabled</string>
+    <string name="title_reletives_setting">Relatives numbers setting</string>
+    <string name="summ_reletives_setting">Not set</string>
+    <string name="reletives_note">*SIM card is replaced, it will send a message for notice to relatives number</string>
+    <string name="save">Save</string>
+    <string name="lock_info">Need to enable remote data control, and set the "Control password".\n\nAfter remote data control enabled, the phone which number is relatives number be able to send text messages with the specified form to this phone, to change the lock screen password and do lock screen. The content of short message is recognized as the command which format as follow:\n\n<b>"##SP#control password#new lock screen password#"</b>\n\nThe "Control password" is you set when you enable the "Remote data control". The "new lock screen password" is the password to lock your phone.\n\nOnly the phone which number is relatives numbers you set before, can send remote control commands to this phone.</string>
+    <string name="delete_info">Need to enable remote data control, and set the "Control password".\n\nAfter remote data control enabled, the phone which number is relatives number be able to send text messages with the specified form to this phone, to clean the user personal information. The content of short message is recognized as the command which format as follow:\n\n<b>"##QC#control password#"</b>\n\nThe "Control password" is you set when you enable the "Remote data control". \n\nOnly the phone which number is relatives numbers you set before, can send remote control commands to this phone.\n you aslo can use command <b> "##QCTSIMSHOUJI#control password#"</b> to clean SIM card data and external T card data,be awre of this commad maybe casuse lost of you and others.</string>
+    <string name="relatives_info">Need to enable remote data control, and set the "Control password".\n\nAfter remote data control enabled, if the SIM card is replaced, caused phone number changed ,relatives number will be notified.\nOnly the phone which number is relatives numbers you set before, can send remote control commands to this phone.</string>
+    <string name="agreement">Agree</string>
+    <string name="agree">OK</string>
+    <string name="exit">Exit</string>
+    <string name="lock_password_change_success">Lock screen password changed successfully</string>
+    <string name="lock_password_changing">Your lock screen password has been changed to </string>
+    <string name="data_has_been_clean">Personal data has been cleared</string>
+    <string name="relative_num_note">I made you as my contacts of "remote data control"</string>
+    <string name="sim_change_note">My SIM card is replaced, the number of replaced SIM card is the number this message delivery from</string>
+    <string name="RDC_title">Remote control data</string>
+    <string name="my_number_title">Phone number</string>
+    <string name="lc_verify">Password authentication</string>
+    <string name="cantGetNum">Can\'t get phone number</string>
+    <string name="lc_verify_mesg">Only the owner can run this application, Do you want to verify the identity with lock screen password?</string>
+    <string name="Auth_alert_title">Device authentication </string>
+    <string name="Auth_alert_message">Your device can\'t run this application.</string>
+
+    <!-- crypt box string -->
+    <string name="title_activity_crypt_box">CryptBoxActivity</string>
+    <string name="crypt_box">Crypt Box</string>
+    <string name="wrong_password">Wrong Password !</string>
+    <string name="invalid_name">Invalid Name !</string>
+    <string name="invalid_password">Invalid Password !</string>
+    <string name="confirm_delete_cryptbox">Confirm Delete CryptBox?</string>
+    <string name="warning">Warning</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="mkdir_failed">Mkdir Failed !</string>
+    <string name="select_decrypt_path">Select decrypt path</string>
+    <string name="add_crypt_file">Add Crypt File</string>
+    <string name="create_crypt_box">Create Crypt Box</string>
+    <string name="input_password">Input Password</string>
+    <string name="crypt_box_password">Crypt Box Password:</string>
+    <string name="crypt_box_name">Crypt Box Name:</string>
+    <string name="select">Select</string>
+    <string name="process_wait">Please Waiting</string>
+    <string name="process_crypt">Crypting</string>
+    <string name="process_decrypt">Decrypting</string>
+    <string name="path_save">Path Save</string>
+
+    <!-- permission string -->
+    <string name="title">Permission Settings</string>
+    <string name="permission">"Permission"</string>
+    <string name="application">"Apps"</string>
+    <string name="log">"Log"</string>
+    <string name="perms_title">Permission Manager</string>
+
+    <string-array name="perm_title">
+        <item>"Permission"</item>
+        <item>"Start Monitor"</item>
+    </string-array>
+    <string-array name="perm_comment">
+        <item>"Monitor app permission"</item>
+        <item>"Start monitor"</item>
+    </string-array>
+
+    <string name="app_perm_format">%d permission</string>
+    <string name="start_manager">Manual management startup application</string>
+    <string name="allow_text">Allowed</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="tip">Tip</string>
+
+    <string name="call_phone">Phone call</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="send_mms">Send MMS</string>
+    <string name="send_email">Send Email</string>
+    <string name="network_state">Change network state</string>
+    <string name="wifi_state">Change WLAN state</string>
+    <string name="location_access">Location</string>
+    <string name="record_audio">Record audio</string>
+    <string name="local_record_audio">Local record audio</string>
+    <string name="camera">Camera</string>
+    <string name="write_contacts">Write contacts</string>
+    <string name="write_call_log">Write call log</string>
+    <string name="write_sms">Write SMS</string>
+    <string name="write_mms">Write MMS</string>
+    <string name="read_contact">Read contact</string>
+    <string name="read_call_log">Read call log</string>
+    <string name="read_sms">Read SMS</string>
+    <string name="read_mms">Read MMS</string>
+    <string name="blue_tooth">Bluetooth admin</string>
+    <string name="open_nfc">NFC</string>
+    <string name="read_protected_files">Read protected files</string>
+
+    <string name="monitor_control">Start monitor</string>
+    <string name="perm_des"><xliff:g id="perm_count">%1$d</xliff:g>softwares have right to</string>
+    <string name="log_count"><xliff:g id="perm_count">%1$d</xliff:g>records</string>
+    <string name="group_commication">Communication</string>
+    <string name="group_senstive">Sensitive</string>
+    <string name="group_interface">Interface</string>
+    <string name="btn_txt_delete_self">delete</string>
+    <string name="monitor_summary_yes">Monitoring permission</string>
+    <string name="monitor_summary_no">Disable monitoring</string>
+    <string name="close_monitor_title">Disable monitor</string>
+    <string name="close_monitor_msg">Disable monitor.The system will not monitor the permission.Are you sure to close?</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="custom_dialog_title">Tip</string>
+    <string name="menu_clear_all_log">Clear all logs</string>
+    <string name="menu_set_clear_log_time">Set clear time</string>
+    <string name="choose_allow">Allow %s</string>
+    <string name="choose_refuse">Deny %s</string>
+    <string name="choose_tip">Tip %s</string>
+    <string name="switch_dialog_title">Tip</string>
+    <string name="switch_dialog_msg">The function will start monitoring the apps permission,maybe affect your experience,please comfirm to turn on this function.Are you sure to start?</string>
+    <string name="switch_dialog_ok_button">Start</string>
+    <string name="switch_dialog_cancel_button">Close</string>
+    <string name="ask_clear_all_log">Are you sure to clear all logs?</string>
+    <string name="dialog_clear">OK</string>
+    <string name="dialog_not_clear">Cancel</string>
+    <string name="ask_choose_time">Choose time</string>
+    <string name="clear_log_dialog_title">clear log</string>
+
+    <string-array name="perm_des">
+        <item>Allow</item>
+        <item>Deny</item>
+        <item>Tip</item>
+    </string-array>
+    <string-array name="perm_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="oneDay">one day</string>
+    <string name="oneWeek">one week</string>
+    <string name="oneMonth">one month</string>
+    <string name="choose_deleteLog_time">Please choose time:</string>
+    <string name="btn_delete_logtxt">Cancel</string>
+    <string name="txt_delete_self">Choose time</string>
+    <string name="wrong_date">Unknown date</string>
+    <string name="wrong_time">Unknown time</string>
+    <string name="today">Today</string>
+    <string name="init_appinfo">creating the database,init the application information,keep waiting.</string>
+    <string name="title_init_appinfo">Security App</string>
+    <string name="log_on_off">Log On </string>
+
+    <!-- secu_resource -->
+    <string name="security_alert_tryto"> is trying to</string>
+    <string name="security_alert_choice_allow">Allow</string>
+    <string name="security_alert_choice_refuse">Refuse</string>
+    <string name="security_alert_placecall">place call</string>
+    <string name="security_alert_sendmessage">send short message</string>
+    <string name="security_alert_sendmms">send multimedia message</string>
+    <string name="security_alert_sendemail">send email</string>
+    <string name="security_alert_enalbedataconnect">open data connection</string>
+    <string name="security_alert_closedataconnect">close data connection</string>
+    <string name="security_alert_enablewifi">open WLAN</string>
+    <string name="security_alert_closewifi">close WLAN</string>
+    <string name="security_alert_enablelocation">enalbe location function</string>
+    <string name="security_alert_recordcall">record call</string>
+    <string name="security_alert_record">record</string>
+    <string name="security_alert_opencamera">open camera</string>
+    <string name="security_alert_writecontacts">write or delete contacts</string>
+    <string name="security_alert_writecalllog">write or delete call log</string>
+    <string name="security_alert_writemessage">write or delete short message</string>
+    <string name="security_alert_writemms">write or delete multimedia message</string>
+    <string name="security_alert_readcontacts">read contacts</string>
+    <string name="security_alert_readcalllog">read call log</string>
+    <string name="security_alert_readmessage">read short message</string>
+    <string name="security_alert_readmms">read multimedia message</string>
+    <string name="security_alert_remind">remember forever</string>
+    <string name="security_alert_bt">enable bluetooth</string>
+    <string name="security_alert_nfc">enable NFC</string>
+    <string name="security_alert_readprotectedfiles">read protected files</string>
+</resources>

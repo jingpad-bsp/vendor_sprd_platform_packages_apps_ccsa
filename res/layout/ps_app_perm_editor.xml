@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_app_perm_editor_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:focusable="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_app_perm_editor_appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/app_name_size" />
+    </FrameLayout>
+<!--
+    <ListView
+        android:id="@+id/perm_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_divider_holo_light" >
+    </ListView>
+ -->
+    <com.unisoc.ccsa.permission.FocusListView
+        android:id="@+id/perm_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/custom_listview_style" >
+    </com.unisoc.ccsa.permission.FocusListView>
+</LinearLayout>
